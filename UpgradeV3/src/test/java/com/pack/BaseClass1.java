@@ -31,7 +31,7 @@ public class BaseClass1 {
 
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"/Users/vengadeshwaran/git/LauditorV3Codes/src/main/java/com/resour/Data.properties");
+				"/Users/vengadeshwaran/git/repository2/UpgradeV3/src/main/java/com/resourceData/Data1.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 		if (browserName.equalsIgnoreCase("chrome")) {

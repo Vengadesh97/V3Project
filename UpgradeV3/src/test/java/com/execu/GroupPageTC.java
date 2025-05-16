@@ -14,7 +14,7 @@ public class GroupPageTC extends BaseClass1{
 	public void createGroupWithCancelandAlertNo() throws InterruptedException {
 		try {
 			dashBoard.groupLeftSide();
-			createGroup.createGroupTab();
+			//createGroup.createGroupTab();
 			createGroup.groupName("Content Added");
 			createGroup.groupDescription("No more Value");
 			createGroup.cancelButton();
@@ -28,7 +28,7 @@ public class GroupPageTC extends BaseClass1{
 	@Test()
 	public void createGroupWithCancelandAlertYes() throws InterruptedException {
 		try {
-			createGroup.createGroupTab();
+		//	createGroup.createGroupTab();
 			createGroup.groupName("No Group");
 			createGroup.groupDescription("Checking");
 			createGroup.cancelButton();
